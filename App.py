@@ -18,6 +18,8 @@ def add_contact():
         fullname = request.form['fullname']
         phone = request.form['phone']
         email = request.form['email']
+        print(fullname, phone, email)
+        return'recived'
 
 @app.route('/edit')
 def edit_contact():
