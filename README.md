@@ -7,3 +7,6 @@
 
 # issues
 - sudo apt-get install libmysqlclient-dev
+
+# BD
+- BD_Flaskl.sql
